@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Market QX Security Demo</title>
+</head>
+<body>
+  <h1>Market QX Security Demo</h1>
+  <p>This is a safe local training page. It does not steal credentials,
+  cookies, files, or personal data.</p>
+  <button id="demo">Run harmless demo</button>
+  <pre id="output"></pre>
+  <script>
+    document.getElementById("demo").addEventListener("click", () => {
+      document.getElementById("output").textContent =
+        "Demo event recorded locally. No data was collected or transmitted.";
+    });
+  </script>
+</body>
+</html>

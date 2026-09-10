@@ -1,0 +1,13 @@
+{
+  "name": "market-qx-c2",
+  "version": "1.0.0",
+  "description": "C2 server for security research",
+  "main": "src/c2_server.js",
+  "scripts": {
+    "start": "node src/c2_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
